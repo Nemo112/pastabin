@@ -1,0 +1,52 @@
+\select@language {czech}
+\contentsline {chapter}{\numberline {1}Rejst\IeC {\v r}\IeC {\'\i }k hierarchie t\IeC {\v r}\IeC {\'\i }d}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Hierarchie t\IeC {\v r}\IeC {\'\i }d}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Rejst\IeC {\v r}\IeC {\'\i }k t\IeC {\v r}\IeC {\'\i }d}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Seznam t\IeC {\v r}\IeC {\'\i }d}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Dokumentace t\IeC {\v r}\IeC {\'\i }d}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Model\textbackslash {}Base}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Detailn\IeC {\'\i } popis}{5}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Base\discretionary {-}{}{}Presenter}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Detailn\IeC {\'\i } popis}{6}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Model\textbackslash {}Duplicate\discretionary {-}{}{}Name\discretionary {-}{}{}Exception}{6}{section.3.3}
+\contentsline {section}{\numberline {3.4}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Error4xx\discretionary {-}{}{}Presenter}{6}{section.3.4}
+\contentsline {section}{\numberline {3.5}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Error\discretionary {-}{}{}Presenter}{7}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Dokumentace k metod\IeC {\'a}m}{7}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}run}{7}{subsubsection.3.5.1.1}
+\contentsline {section}{\numberline {3.6}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Homepage\discretionary {-}{}{}Presenter}{7}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Detailn\IeC {\'\i } popis}{8}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Dokumentace k metod\IeC {\'a}m}{8}{subsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.2.1}inject\discretionary {-}{}{}Models}{8}{subsubsection.3.6.2.1}
+\contentsline {subsubsection}{\numberline {3.6.2.2}login\discretionary {-}{}{}Form\discretionary {-}{}{}Succeeded}{8}{subsubsection.3.6.2.2}
+\contentsline {section}{\numberline {3.7}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Model\textbackslash {}Pasters}{8}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Detailn\IeC {\'\i } popis}{9}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Dokumentace k metod\IeC {\'a}m}{9}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}add}{9}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.2}del}{9}{subsubsection.3.7.2.2}
+\contentsline {subsubsection}{\numberline {3.7.2.3}del\discretionary {-}{}{}By\discretionary {-}{}{}User}{10}{subsubsection.3.7.2.3}
+\contentsline {subsubsection}{\numberline {3.7.2.4}find\discretionary {-}{}{}By}{10}{subsubsection.3.7.2.4}
+\contentsline {subsubsection}{\numberline {3.7.2.5}get\discretionary {-}{}{}By\discretionary {-}{}{}User}{10}{subsubsection.3.7.2.5}
+\contentsline {subsubsection}{\numberline {3.7.2.6}get\discretionary {-}{}{}Line}{10}{subsubsection.3.7.2.6}
+\contentsline {subsubsection}{\numberline {3.7.2.7}get\discretionary {-}{}{}Line\discretionary {-}{}{}By\discretionary {-}{}{}User\discretionary {-}{}{}Id}{10}{subsubsection.3.7.2.7}
+\contentsline {subsubsection}{\numberline {3.7.2.8}get\discretionary {-}{}{}Table}{11}{subsubsection.3.7.2.8}
+\contentsline {subsubsection}{\numberline {3.7.2.9}update}{11}{subsubsection.3.7.2.9}
+\contentsline {section}{\numberline {3.8}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Pastes\discretionary {-}{}{}Presenter}{11}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Detailn\IeC {\'\i } popis}{12}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Dokumentace k metod\IeC {\'a}m}{12}{subsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.2.1}action\discretionary {-}{}{}Show}{12}{subsubsection.3.8.2.1}
+\contentsline {subsubsection}{\numberline {3.8.2.2}inject\discretionary {-}{}{}Models}{12}{subsubsection.3.8.2.2}
+\contentsline {section}{\numberline {3.9}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Router\discretionary {-}{}{}Factory}{12}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Dokumentace k metod\IeC {\'a}m}{12}{subsection.3.9.1}
+\contentsline {subsubsection}{\numberline {3.9.1.1}create\discretionary {-}{}{}Router}{12}{subsubsection.3.9.1.1}
+\contentsline {section}{\numberline {3.10}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Forms\textbackslash {}Sign\discretionary {-}{}{}Form\discretionary {-}{}{}Factory}{12}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Dokumentace k metod\IeC {\'a}m}{13}{subsection.3.10.1}
+\contentsline {subsubsection}{\numberline {3.10.1.1}create}{13}{subsubsection.3.10.1.1}
+\contentsline {section}{\numberline {3.11}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Sign\discretionary {-}{}{}Presenter}{13}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Dokumentace k metod\IeC {\'a}m}{13}{subsection.3.11.1}
+\contentsline {subsubsection}{\numberline {3.11.1.1}create\discretionary {-}{}{}Component\discretionary {-}{}{}Sign\discretionary {-}{}{}In\discretionary {-}{}{}Form}{13}{subsubsection.3.11.1.1}
+\contentsline {section}{\numberline {3.12}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Model\textbackslash {}User\discretionary {-}{}{}Manager}{14}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Detailn\IeC {\'\i } popis}{14}{subsection.3.12.1}
+\contentsline {subsection}{\numberline {3.12.2}Dokumentace k metod\IeC {\'a}m}{14}{subsection.3.12.2}
+\contentsline {subsubsection}{\numberline {3.12.2.1}add}{14}{subsubsection.3.12.2.1}
+\contentsline {subsubsection}{\numberline {3.12.2.2}authenticate}{15}{subsubsection.3.12.2.2}
+\contentsline {chapter}{Rejst\IeC {\v r}\IeC {\'\i }k}{16}{section*.19}

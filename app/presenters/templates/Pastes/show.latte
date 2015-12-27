@@ -1,0 +1,26 @@
+{* This is the welcome page, you can delete it *}
+
+{block title}
+Pastabin
+{/block}
+
+{block title_page}
+<h1>
+	PaštaBin
+</h1>
+{/block}
+{block content}
+<p>
+Stránka slouží ke vkládání útržků textu a jejich následnou distribucí pomocí odkazů.
+Vzor podle <a href="http://pastebin.com/">http://pastebin.com/</a>.
+Životnost pastů je <b>týden</b>.
+</p>
+
+<h2>Pasted: {$datu}</h2>
+
+<pre>
+{$content}
+</pre>
+
+<a n:href="Homepage:">Zpět na Paštabin!</a>
+{/block}

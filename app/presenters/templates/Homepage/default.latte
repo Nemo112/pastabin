@@ -1,0 +1,42 @@
+{* This is the welcome page, you can delete it *}
+
+{block title}
+	Pastabin
+{/block}
+
+{block title_page}
+	<h1>
+		PastaBin
+	</h1>
+{/block}
+{block content}
+	<p>
+	Stránka slouží ke vkládání útržků textu a jejich následnou distribucí pomocí odkazů.
+	Vzor podle <a href="http://pastebin.com/">http://pastebin.com/</a>.
+	{if !$user->loggedIn}
+		Životnost pastů je <b>týden</b>.
+	{/if}
+	</p>
+	{control pasteForm}
+	<p>
+		<br>
+	</p>
+	{if !$user->loggedIn}
+		{control loginForm}
+	{/if}
+	{if $user->loggedIn}
+		<ul>
+			<li><a n:href="Homepage:logout">Odhlásit...</a></li>
+			<li><a n:href="Homepage:removeme">Smazat se i se svými pasty...</a></li>
+		</ul>
+	{/if}
+	{if $user->loggedIn}
+	<h2>
+		Pasty
+	</h2>
+		<table n:inner-foreach="$pasty as $it">
+			<tr><td><b>Čas: {$it->time}</b></td><td id="left"><a n:href="Pastes:show $it->id">odkaz</a></td></tr>
+			<tr><th colspan="2"><div class="hide-value"><pre>{$it->value}</pre><div></th></tr>
+		</table>
+	{/if}
+{/block}

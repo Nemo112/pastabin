@@ -1,0 +1,210 @@
+\hypertarget{classApp_1_1Model_1_1Pasters}{\section{Dokumentace třídy App\textbackslash{}Model\textbackslash{}Pasters}
+\label{classApp_1_1Model_1_1Pasters}\index{App\textbackslash{}\-Model\textbackslash{}\-Pasters@{App\textbackslash{}\-Model\textbackslash{}\-Pasters}}
+}
+
+
+Model reprezentující entitu pastes z databáze.  
+
+
+Diagram dědičnosti pro třídu App\textbackslash{}Model\textbackslash{}Pasters\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classApp_1_1Model_1_1Pasters}
+\end{center}
+\end{figure}
+\subsection*{Veřejné metody}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_a778c4b70c0f01cfbc8e5dc501cc2690a}{add} (\$value, \$id\-\_\-user)
+\begin{DoxyCompactList}\small\item\em Metoda vytvoří paste v databázi a vyhodí excepšnu při chybě \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_aa16e80c8cde9bb0fb3297b7d0d9ec811}{find\-By} (array \$by)
+\begin{DoxyCompactList}\small\item\em Metoda prohledá tabulku podle kritérií v \$by. \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_a541268fec1aa42f6e01f27c9cf898d68}{update} (\$data)
+\begin{DoxyCompactList}\small\item\em Metoda změní data podle vstupního id. \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_aa411c7eb5396b9a3b3a94fd0b906d7d5}{del} (\$id)
+\begin{DoxyCompactList}\small\item\em Metoda smaže záznam podle \$id. \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_a4490387bc6ed706b7fbac89a90d34786}{del\-By\-User} (\$userid)
+\begin{DoxyCompactList}\small\item\em Metoda smaže vše, co patřilo uživateli podle id. \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_ae229992c1cb37e23b8ba08559cdae953}{get\-Table} ()
+\begin{DoxyCompactList}\small\item\em Metoda vrátí celou tabulku. \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_a8e8331fb00d3369398bcbbe06822ee7c}{get\-Line} (\$id)
+\begin{DoxyCompactList}\small\item\em Metoda vrátí řádek podle id. \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_ad7c8c8fae5bd7d13799bc0d08a4896eb}{get\-By\-User} (\$id)
+\begin{DoxyCompactList}\small\item\em Metoda vrátí vše podle id uživatele. \end{DoxyCompactList}\item 
+\hyperlink{classApp_1_1Model_1_1Pasters_a6c7ab1c9e478f59efdb380401666dabc}{get\-Line\-By\-User\-Id} (\$id)
+\begin{DoxyCompactList}\small\item\em Metoda vrátí vše podle id uživatele. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Veřejné atributy}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classApp_1_1Model_1_1Pasters_a437b6b51a7609885ccf5a13e6ab6ea7a}{const \hyperlink{classApp_1_1Model_1_1Pasters_a437b6b51a7609885ccf5a13e6ab6ea7a}{T\-A\-B\-L\-E\-\_\-\-N\-A\-M\-E} = 'pastes'}\label{classApp_1_1Model_1_1Pasters_a437b6b51a7609885ccf5a13e6ab6ea7a}
+
+\begin{DoxyCompactList}\small\item\em Jméno tabulky. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Další zděděné členy}
+
+
+\subsection{Detailní popis}
+Model reprezentující entitu pastes z databáze. 
+
+\subsection{Dokumentace k metodám}
+\hypertarget{classApp_1_1Model_1_1Pasters_a778c4b70c0f01cfbc8e5dc501cc2690a}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!add@{add}}
+\index{add@{add}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::add (
+\begin{DoxyParamCaption}
+\item[{}]{\$value, }
+\item[{}]{\$id\-\_\-user}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_a778c4b70c0f01cfbc8e5dc501cc2690a}
+
+
+Metoda vytvoří paste v databázi a vyhodí excepšnu při chybě 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$value} & data pastu \\
+\hline
+\mbox{\tt in}  & {\em \$id\-\_\-user} & id uživatele \\
+\hline
+\end{DoxyParams}
+\hypertarget{classApp_1_1Model_1_1Pasters_aa411c7eb5396b9a3b3a94fd0b906d7d5}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!del@{del}}
+\index{del@{del}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{del}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::del (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_aa411c7eb5396b9a3b3a94fd0b906d7d5}
+
+
+Metoda smaže záznam podle \$id. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$id} & záznamu ke smazání \\
+\hline
+\end{DoxyParams}
+\hypertarget{classApp_1_1Model_1_1Pasters_a4490387bc6ed706b7fbac89a90d34786}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!del\-By\-User@{del\-By\-User}}
+\index{del\-By\-User@{del\-By\-User}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{del\-By\-User}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::del\-By\-User (
+\begin{DoxyParamCaption}
+\item[{}]{\$userid}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_a4490387bc6ed706b7fbac89a90d34786}
+
+
+Metoda smaže vše, co patřilo uživateli podle id. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$userid} & id uživatele \\
+\hline
+\end{DoxyParams}
+\hypertarget{classApp_1_1Model_1_1Pasters_aa16e80c8cde9bb0fb3297b7d0d9ec811}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!find\-By@{find\-By}}
+\index{find\-By@{find\-By}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{find\-By}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::find\-By (
+\begin{DoxyParamCaption}
+\item[{array}]{\$by}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_aa16e80c8cde9bb0fb3297b7d0d9ec811}
+
+
+Metoda prohledá tabulku podle kritérií v \$by. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$by} & data pro hledání \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Návratová hodnota}
+Řádek tabulky podle vyhledávání 
+\end{DoxyReturn}
+\hypertarget{classApp_1_1Model_1_1Pasters_ad7c8c8fae5bd7d13799bc0d08a4896eb}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!get\-By\-User@{get\-By\-User}}
+\index{get\-By\-User@{get\-By\-User}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{get\-By\-User}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::get\-By\-User (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_ad7c8c8fae5bd7d13799bc0d08a4896eb}
+
+
+Metoda vrátí vše podle id uživatele. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$id} & id uživatele \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Návratová hodnota}
+řádek podle id uživatele 
+\end{DoxyReturn}
+\hypertarget{classApp_1_1Model_1_1Pasters_a8e8331fb00d3369398bcbbe06822ee7c}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!get\-Line@{get\-Line}}
+\index{get\-Line@{get\-Line}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{get\-Line}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::get\-Line (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_a8e8331fb00d3369398bcbbe06822ee7c}
+
+
+Metoda vrátí řádek podle id. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$id} & id řádku \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Návratová hodnota}
+řádek podle id 
+\end{DoxyReturn}
+\hypertarget{classApp_1_1Model_1_1Pasters_a6c7ab1c9e478f59efdb380401666dabc}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!get\-Line\-By\-User\-Id@{get\-Line\-By\-User\-Id}}
+\index{get\-Line\-By\-User\-Id@{get\-Line\-By\-User\-Id}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{get\-Line\-By\-User\-Id}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::get\-Line\-By\-User\-Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_a6c7ab1c9e478f59efdb380401666dabc}
+
+
+Metoda vrátí vše podle id uživatele. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$id} & id uživatele \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Návratová hodnota}
+řádek podle id uživatele 
+\end{DoxyReturn}
+\hypertarget{classApp_1_1Model_1_1Pasters_ae229992c1cb37e23b8ba08559cdae953}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!get\-Table@{get\-Table}}
+\index{get\-Table@{get\-Table}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{get\-Table}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::get\-Table (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_ae229992c1cb37e23b8ba08559cdae953}
+
+
+Metoda vrátí celou tabulku. 
+
+\begin{DoxyReturn}{Návratová hodnota}
+tabulka pastes 
+\end{DoxyReturn}
+\hypertarget{classApp_1_1Model_1_1Pasters_a541268fec1aa42f6e01f27c9cf898d68}{\index{App\-::\-Model\-::\-Pasters@{App\-::\-Model\-::\-Pasters}!update@{update}}
+\index{update@{update}!App::Model::Pasters@{App\-::\-Model\-::\-Pasters}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}App\textbackslash{}\-Model\textbackslash{}\-Pasters\-::update (
+\begin{DoxyParamCaption}
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{classApp_1_1Model_1_1Pasters_a541268fec1aa42f6e01f27c9cf898d68}
+
+
+Metoda změní data podle vstupního id. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em \$data} & pro změnu \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentace pro tuto třídu byla generována z následujícího souboru\-:\begin{DoxyCompactItemize}
+\item 
+model/Pasters.\-php\end{DoxyCompactItemize}

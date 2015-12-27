@@ -1,0 +1,19 @@
+textarea.add-form{
+	width: 120vh;
+	height:40vh;
+	resize:both;
+    	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+td#left{
+	padding: 12px;
+}
+
+div.hide-value{
+	width: 120vh;
+	height: 10vh;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
