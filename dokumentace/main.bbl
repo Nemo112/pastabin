@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+\providecommand{\biburl}[1]{\url{#1}}
+\providecommand{\urlprefix}{Dostupn{\' e} z: }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\eprint}[2][]{\biburl{#2}}
+
+\bibitem{pencil}
+Evolus: Pencil Project. [cit. 2015-12-23].
+\urlprefix\biburl{http://pencil.evolus.vn/}
+
+\bibitem{nettfr}
+Foundation, N.: Seznámení s Nette Frameworkem. [cit. 2015-12-27].
+\urlprefix\biburl{https://doc.nette.org/cs/2.3/getting-started}
+
+\end{thebibliography}

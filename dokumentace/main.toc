@@ -1,0 +1,13 @@
+\select@language {czech}
+\contentsline {chapter}{\numberline {1}P\IeC {\v r}edmluva autora}{3}
+\contentsline {chapter}{\numberline {2}\IeC {\'U}vod}{4}
+\contentsline {chapter}{\numberline {3}Funk\IeC {\v c}n\IeC {\'\i } specifikace}{5}
+\contentsline {section}{\numberline {3.1}Datov\IeC {\'y} model}{5}
+\contentsline {section}{\numberline {3.2}U\IeC {\v z}ivatelsk\IeC {\'e} role}{5}
+\contentsline {section}{\numberline {3.3}N\IeC {\'a}vrh u\IeC {\v z}ivatelsk\IeC {\'e}ho rozhran\IeC {\'\i }}{5}
+\contentsline {chapter}{\numberline {4}Technick\IeC {\'y} specifikace}{7}
+\contentsline {section}{\numberline {4.1}Rela\IeC {\v c}n\IeC {\'\i } model}{7}
+\contentsline {section}{\numberline {4.2}Architektura aplikace}{8}
+\contentsline {subsection}{\numberline {4.2.1}Pohledy}{8}
+\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{10}
+\contentsline {chapter}{\numberline {A}Reference pojm\IeC {\r u}}{11}
