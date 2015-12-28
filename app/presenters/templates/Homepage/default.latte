@@ -35,8 +35,8 @@
 		Pasty
 	</h2>
 		<table n:inner-foreach="$pasty as $it">
-			<tr><td><b>Čas: {$it->time}</b></td><td id="left"><a n:href="Pastes:show $it->id">odkaz</a></td></tr>
-			<tr><th colspan="2"><div class="hide-value"><pre>{$it->value}</pre><div></th></tr>
+			<tr><td><b>Čas: {$it->time}</b></td><td id="left"><a n:href="Pastes:show $it->id">odkaz</a></td><td id="left"><a n:href="Pastes:delete $it->id">smazat</a></td></tr>
+			<tr><th colspan="3"><div class="hide-value"><pre>{$it->value}</pre><div></th></tr>
 		</table>
 	{/if}
 {/block}

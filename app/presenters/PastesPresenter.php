@@ -51,4 +51,12 @@ class PastesPresenter extends BasePresenter
 			$this->template->datu = date('d.m.Y H:i:s',strtotime($line->time));
 		}
 	}
+    /*! \fn actionDelete($id)
+        \param[in] $id id Pastu
+        \brief Metoda z databáze vymaže paste
+    */
+	public function actionDelete($id){
+	    $line = $this->pasters->del($id);
+		$this->redirect('Homepage:');
+	}
 }

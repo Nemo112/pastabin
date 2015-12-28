@@ -33,17 +33,18 @@
 \contentsline {section}{\numberline {3.8}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Pastes\discretionary {-}{}{}Presenter}{11}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}Detailn\IeC {\'\i } popis}{12}{subsection.3.8.1}
 \contentsline {subsection}{\numberline {3.8.2}Dokumentace k metod\IeC {\'a}m}{12}{subsection.3.8.2}
-\contentsline {subsubsection}{\numberline {3.8.2.1}action\discretionary {-}{}{}Show}{12}{subsubsection.3.8.2.1}
-\contentsline {subsubsection}{\numberline {3.8.2.2}inject\discretionary {-}{}{}Models}{12}{subsubsection.3.8.2.2}
+\contentsline {subsubsection}{\numberline {3.8.2.1}action\discretionary {-}{}{}Delete}{12}{subsubsection.3.8.2.1}
+\contentsline {subsubsection}{\numberline {3.8.2.2}action\discretionary {-}{}{}Show}{12}{subsubsection.3.8.2.2}
+\contentsline {subsubsection}{\numberline {3.8.2.3}inject\discretionary {-}{}{}Models}{12}{subsubsection.3.8.2.3}
 \contentsline {section}{\numberline {3.9}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Router\discretionary {-}{}{}Factory}{12}{section.3.9}
 \contentsline {subsection}{\numberline {3.9.1}Dokumentace k metod\IeC {\'a}m}{12}{subsection.3.9.1}
 \contentsline {subsubsection}{\numberline {3.9.1.1}create\discretionary {-}{}{}Router}{12}{subsubsection.3.9.1.1}
-\contentsline {section}{\numberline {3.10}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Forms\textbackslash {}Sign\discretionary {-}{}{}Form\discretionary {-}{}{}Factory}{12}{section.3.10}
+\contentsline {section}{\numberline {3.10}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Forms\textbackslash {}Sign\discretionary {-}{}{}Form\discretionary {-}{}{}Factory}{13}{section.3.10}
 \contentsline {subsection}{\numberline {3.10.1}Dokumentace k metod\IeC {\'a}m}{13}{subsection.3.10.1}
 \contentsline {subsubsection}{\numberline {3.10.1.1}create}{13}{subsubsection.3.10.1.1}
 \contentsline {section}{\numberline {3.11}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Presenters\textbackslash {}Sign\discretionary {-}{}{}Presenter}{13}{section.3.11}
-\contentsline {subsection}{\numberline {3.11.1}Dokumentace k metod\IeC {\'a}m}{13}{subsection.3.11.1}
-\contentsline {subsubsection}{\numberline {3.11.1.1}create\discretionary {-}{}{}Component\discretionary {-}{}{}Sign\discretionary {-}{}{}In\discretionary {-}{}{}Form}{13}{subsubsection.3.11.1.1}
+\contentsline {subsection}{\numberline {3.11.1}Dokumentace k metod\IeC {\'a}m}{14}{subsection.3.11.1}
+\contentsline {subsubsection}{\numberline {3.11.1.1}create\discretionary {-}{}{}Component\discretionary {-}{}{}Sign\discretionary {-}{}{}In\discretionary {-}{}{}Form}{14}{subsubsection.3.11.1.1}
 \contentsline {section}{\numberline {3.12}Dokumentace t\IeC {\v r}\IeC {\'\i }dy App\textbackslash {}Model\textbackslash {}User\discretionary {-}{}{}Manager}{14}{section.3.12}
 \contentsline {subsection}{\numberline {3.12.1}Detailn\IeC {\'\i } popis}{14}{subsection.3.12.1}
 \contentsline {subsection}{\numberline {3.12.2}Dokumentace k metod\IeC {\'a}m}{14}{subsection.3.12.2}

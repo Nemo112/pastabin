@@ -36,7 +36,7 @@
 
 \chapter{Předmluva autora}
 
-Aplikace je volnou kopií úspěšného portálu Pastebin. Důvodem, proč jsem si vybral její zpracování je, že všechny portály jsou zdánlivě napsány. Jsme v době, kdy není vhodné přicházet s vynálezy kola znova a znova. Portály se kupují a následně přizpůsobují na zákazníka. Proto jsem si vybral zdánlivě jednoduchou webovou aplikaci.
+Aplikace je volnou kopií úspěšného portálu Pastebin (\url{http://pastebin.com/}). Důvodem, proč jsem si vybral její zpracování je, že všechny portály jsou zdánlivě napsáné. Žijeme v době, kdy není vhodné přicházet s vynálezy kola znovu a znovu. Portály se kupují a následně přizpůsobují zákazníkovi. Proto jsem si vybral zdánlivě jednoduchou webovou aplikaci.
 
 V zadání také bylo, že je nutné vytvořit strukturu uživatelů. Je nutné si uvědomit, že dnes není záhodno schraňovat informace o uživatelích. Daleko vhodnější je delegovat správu uživatelů na portály (Facebook, Google,~\dots), které jsou tomu určeny a používat přístup k nim pomocí sjednoceného \texttt{API}.
 
@@ -65,7 +65,9 @@ Relace mezi entitami slouží k vyjádření vztahu uživatelů a jejich pastů.
 
 \section{Uživatelské role}
 
-Jak již bylo zmíněno výše, aplikace obsahuje dvě uživatelské role. Jednou z nich je anonymní role uživatele. Ta slouží pro náhodné vkladatele pastů. Oproti tomu existuje registrovaný uživatel, který je uchováván v databázi aplikace. 
+Jak již bylo zmíněno výše, aplikace obsahuje dvě uživatelské role. Jednou z nich je anonymní role uživatele. Ta slouží pro náhodné vkladatele pastů. Oproti tomu existuje registrovaný uživatel, který je uchováván v databázi aplikace.
+
+Uživatel je autentizován pomocí jména a hesla. Od té chvíle je autorizován ke vkládání časově neomezených pastů. 
 
 \section{Návrh uživatelského rozhraní}
 
@@ -91,7 +93,7 @@ Wireframe obsahuje jen hrubý nárys aplikace. Není v něm zaneseno okénko pro
 
 V následující části textu jsou rozebrány technické prvky realizace portálu.
 
-Pro vytvoření portálu na straně serveru byl použit jazyk \texttt{PHP}. S přihlédnutím ke kvalitnější metodice vývoje je použit framework \texttt{Nette}. Pomocí frameworku jsou vytvořeny nativní tři vrstvy aplikace (obrázek \ref{nette}). Nette používá relaxovaný model, takže je možné posloupnost vrstev porušit. V tomto projektu se tomu však nestalo.
+Pro vytvoření portálu na straně serveru byl použit jazyk \texttt{PHP}. S přihlédnutím ke kvalitnější metodice vývoje je použit framework \texttt{Nette}. Pomocí frameworku jsou vytvořeny nativní tři vrstvy aplikace (obrázek \ref{nette}). Nette používá relaxovaný model, takže je možné posloupnost vrstev porušit. V tomto projektu se tak však nestalo.
 
 \begin{figure}[H]
   \centering
@@ -100,7 +102,7 @@ Pro vytvoření portálu na straně serveru byl použit jazyk \texttt{PHP}. S p�
   \label{nette}
 \end{figure}
 
-Obsah vrstev je rozebrán v následujícím textu. V modelech jsou umístěny objekty mapující tabulky databáze. V prezentérech je připravován obsah pro uživatele, který je následně zobrazen pomocí pohledů. V jiné literatuře se můžeme setkat s pojmem kontrolér, \texttt{Nette} ale používá výraz prezentér \cite{nettfr}. 
+Obsah vrstev je rozebrán v následujícím textu. V modelech jsou umístěny objekty mapující tabulky databáze. V prezentérech je připravován obsah pro uživatele, který je následně zobrazen pomocí pohledů. V jiné literatuře se můžeme setkat s pojmem kontrolér, \texttt{Nette} ale používá výraz prezentér \cite{nettfr}.
 
 \section{Relační model}
 
@@ -132,7 +134,7 @@ Datový model je dále namapován na modely v architektuře aplikace. Ta je nás
 
 \texttt{BaseModel} je entita, která má za úkol vyvolat společné atributy následných tříd. Obsahuje tedy volání na databázi.
 
-Za zmínku stojí třída \texttt{UserManager}, která spravuje třídy pro autentizaci, autorizaci a akounting. Všechny ostatní entity jsou už vestavěny ve frameworku \texttt{Nette}. Proto, ačkoliv nikde není reprezentace modelu uživatel, prezentéry pracují s entitou uživatel, která je volána právě z třídy \texttt{UserManager}.
+Za zmínku stojí třída \texttt{UserManager}, která spravuje třídy pro autentizaci, autorizaci a záznam uživatelů. Všechny ostatní entity jsou už vestavěny ve frameworku \texttt{Nette}. Proto, ačkoliv nikde není reprezentace modelu uživatel, prezentéry pracují s entitou uživatel, která je volána právě z třídy \texttt{UserManager}.
 
 Třída \texttt{Pasters} mapuje entitu \texttt{pastes} z datového modelu.
 
@@ -155,7 +157,7 @@ Jak můžeme vidět, \texttt{BasePresenter} slouží zase jen k zavedení spole�
 
 Aplikace pracuje s pohledy, které jsou odvozeny z prezentérů. To znamená, že pro každý prezentér existuje aspoň jeden pohled. \texttt{Nette} pro vytváření pohledů používá jazyk \texttt{Latte}. Společné vlastnosti pohledů jsou v pohledu \texttt{@layout.latte}. V tom jsou rozvrženy pomocí bloků, které se mění podle toho, jak je prezentér nastaví.
 
-V následující ukázce je vystižen celý layout stránky:
+V následující ukázce je ukázán celý layout stránky:
 
 \begin{verbatim}
 {**
@@ -208,7 +210,7 @@ Všimněte si vestavěného volání knihoven \texttt{JQuery} a použití zákla
 
 \chapter{Závěr}
 
-Portál je koncepčně poměrně jednoduchý. Velkým problémem je zvolená metodika. Na jednu stranu je kvůli použití frameworků usnadněn následný rozvoj aplikace. Na druhou však je vývoj o to složitější, protože samotný framework není tak intuitivní, jak nativní \texttt{PHP}.
+Portál je koncepčně poměrně jednoduchý. Velkým problémem je zvolená metodika. Na jednu stranu je kvůli použití frameworků usnadněn následný rozvoj aplikace. Na druhou však je vývoj o to složitější, protože samotný framework není tak intuitivní jako nativní \texttt{PHP}.
 
 Pro hlubší pochopení portálu doporučují projít dokumentaci vygenerovanou pomocí \texttt{Doxygen}.
 

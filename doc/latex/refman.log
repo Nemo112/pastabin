@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.8)  27 DEC 2015 18:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.8)  28 DEC 2015 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,7 +1298,7 @@ Kapitola 2.
 ]
 Kapitola 3.
 (./classApp_1_1Model_1_1Base.tex
-<classApp_1_1Model_1_1Base.pdf, id=345, 501.875pt x 470.50781pt>
+<classApp_1_1Model_1_1Base.pdf, id=350, 501.875pt x 470.50781pt>
 File: classApp_1_1Model_1_1Base.pdf Graphic file (type pdf)
 
 <use classApp_1_1Model_1_1Base.pdf>
@@ -1319,7 +1319,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 18.
 )
 (./classApp_1_1Presenters_1_1BasePresenter.tex
-<classApp_1_1Presenters_1_1BasePresenter.pdf, id=346, 501.875pt x 66.3278pt>
+<classApp_1_1Presenters_1_1BasePresenter.pdf, id=351, 501.875pt x 66.3278pt>
 File: classApp_1_1Presenters_1_1BasePresenter.pdf Graphic file (type pdf)
 
 <use classApp_1_1Presenters_1_1BasePresenter.pdf>
@@ -1328,7 +1328,7 @@ put line 12.
 (pdftex.def)             Requested size: 398.3531pt x 52.64384pt.
  [5 <./classApp_1_1Model_1_1Base.pdf>]) (./classApp_1_1Model_1_1DuplicateNameEx
 ception.tex
-<classApp_1_1Model_1_1DuplicateNameException.pdf, id=360, 501.875pt x 177.65372
+<classApp_1_1Model_1_1DuplicateNameException.pdf, id=365, 501.875pt x 177.65372
 pt>
 File: classApp_1_1Model_1_1DuplicateNameException.pdf Graphic file (type pdf)
  <use classApp_1_1Model_1_1DuplicateNameException.pdf>
@@ -1337,7 +1337,7 @@ n input line 7.
 (pdftex.def)             Requested size: 160.75644pt x 56.9055pt.
 )
 (./classApp_1_1Presenters_1_1Error4xxPresenter.tex
-<classApp_1_1Presenters_1_1Error4xxPresenter.pdf, id=361, 501.875pt x 278.82167
+<classApp_1_1Presenters_1_1Error4xxPresenter.pdf, id=366, 501.875pt x 278.82167
 pt>
 File: classApp_1_1Presenters_1_1Error4xxPresenter.pdf Graphic file (type pdf)
  <use classApp_1_1Presenters_1_1Error4xxPresenter.pdf>
@@ -1346,7 +1346,7 @@ n input line 7.
 (pdftex.def)             Requested size: 153.64217pt x 85.35826pt.
 )
 (./classApp_1_1Presenters_1_1ErrorPresenter.tex
-<classApp_1_1Presenters_1_1ErrorPresenter.pdf, id=362, 501.875pt x 101.9007pt>
+<classApp_1_1Presenters_1_1ErrorPresenter.pdf, id=367, 501.875pt x 101.9007pt>
 File: classApp_1_1Presenters_1_1ErrorPresenter.pdf Graphic file (type pdf)
 
 <use classApp_1_1Presenters_1_1ErrorPresenter.pdf>
@@ -1367,7 +1367,7 @@ Underfull \hbox (badness 10000) detected at line 28
  []
 
 ) (./classApp_1_1Presenters_1_1HomepagePresenter.tex
-<classApp_1_1Presenters_1_1HomepagePresenter.pdf, id=386, 501.875pt x 265.3112p
+<classApp_1_1Presenters_1_1HomepagePresenter.pdf, id=391, 501.875pt x 265.3112p
 t>
 File: classApp_1_1Presenters_1_1HomepagePresenter.pdf Graphic file (type pdf)
  <use classApp_1_1Presenters_1_1HomepagePresenter.pdf>
@@ -1390,7 +1390,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.99994pt on input line 63.
 )
 (./classApp_1_1Model_1_1Pasters.tex
-<classApp_1_1Model_1_1Pasters.pdf, id=421, 501.875pt x 470.50781pt>
+<classApp_1_1Model_1_1Pasters.pdf, id=426, 501.875pt x 470.50781pt>
 File: classApp_1_1Model_1_1Pasters.pdf Graphic file (type pdf)
 
 <use classApp_1_1Model_1_1Pasters.pdf>
@@ -1423,7 +1423,7 @@ Underfull \hbox (badness 10000) detected at line 187
  []
 
 ) (./classApp_1_1Presenters_1_1PastesPresenter.tex
-<classApp_1_1Presenters_1_1PastesPresenter.pdf, id=468, 501.875pt x 295.22295pt
+<classApp_1_1Presenters_1_1PastesPresenter.pdf, id=473, 501.875pt x 295.22295pt
 >
 File: classApp_1_1Presenters_1_1PastesPresenter.pdf Graphic file (type pdf)
  <use classApp_1_1Presenters_1_1PastesPresenter.pdf>
@@ -1442,46 +1442,46 @@ Underfull \hbox (badness 10000) detected at line 19
  []
 
 ) (./classApp_1_1Forms_1_1SignFormFactory.tex
-<classApp_1_1Forms_1_1SignFormFactory.pdf, id=490, 501.875pt x 218.20522pt>
+<classApp_1_1Forms_1_1SignFormFactory.pdf, id=497, 501.875pt x 218.20522pt>
 File: classApp_1_1Forms_1_1SignFormFactory.pdf Graphic file (type pdf)
 
 <use classApp_1_1Forms_1_1SignFormFactory.pdf>
 Package pdftex.def Info: classApp_1_1Forms_1_1SignFormFactory.pdf used on input
  line 7.
 (pdftex.def)             Requested size: 130.88263pt x 56.9055pt.
- [12 <./classApp_1_1Forms_1_1SignFormFactory.pdf>]
+ [12]
 Underfull \hbox (badness 10000) detected at line 31
 [][][]
  []
 
 ) (./classApp_1_1Presenters_1_1SignPresenter.tex
-<classApp_1_1Presenters_1_1SignPresenter.pdf, id=503, 501.875pt x 308.84384pt>
+<classApp_1_1Presenters_1_1SignPresenter.pdf, id=505, 501.875pt x 308.84384pt>
 File: classApp_1_1Presenters_1_1SignPresenter.pdf Graphic file (type pdf)
 
 <use classApp_1_1Presenters_1_1SignPresenter.pdf>
 Package pdftex.def Info: classApp_1_1Presenters_1_1SignPresenter.pdf used on in
 put line 7.
 (pdftex.def)             Requested size: 138.70909pt x 85.35826pt.
-
+ [13 <./classApp_1_1Forms_1_1SignFormFactory.pdf> <./classApp_1_1Presenters_1_1
+SignPresenter.pdf>]
 Underfull \hbox (badness 10000) detected at line 37
 [][][]
  []
 
-[13 <./classApp_1_1Presenters_1_1SignPresenter.pdf>])
-(./classApp_1_1Model_1_1UserManager.tex
-<classApp_1_1Model_1_1UserManager.pdf, id=525, 501.875pt x 123.16013pt>
+) (./classApp_1_1Model_1_1UserManager.tex
+<classApp_1_1Model_1_1UserManager.pdf, id=532, 501.875pt x 123.16013pt>
 File: classApp_1_1Model_1_1UserManager.pdf Graphic file (type pdf)
 
 <use classApp_1_1Model_1_1UserManager.pdf>
 Package pdftex.def Info: classApp_1_1Model_1_1UserManager.pdf used on input lin
 e 7.
 (pdftex.def)             Requested size: 231.89146pt x 56.9055pt.
-
+ [14 <./classApp_1_1Model_1_1UserManager.pdf>]
 Underfull \hbox (badness 10000) detected at line 62
 [][][]
  []
 
-[14 <./classApp_1_1Model_1_1UserManager.pdf>]
+
 Underfull \hbox (badness 10000) detected at line 72
 [][][]
  []
@@ -1495,7 +1495,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 803EECD7277B2DB5875B1426FC3C8CB3;8776.
+(rerunfilecheck)             Checksum: AFD310035366DC7CF1E20E0BBF59D9B5;8908.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1503,23 +1503,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 13307 strings out of 493304
- 189227 string characters out of 6139872
- 269994 words of memory out of 5000000
- 16380 multiletter control sequences out of 15000+600000
+ 13312 strings out of 493304
+ 189430 string characters out of 6139872
+ 270052 words of memory out of 5000000
+ 16383 multiletter control sequences out of 15000+600000
  65056 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 48i,12n,43p,412b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,13n,43p,412b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
 c/uhvbo8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (20 pages, 136988 bytes).
+Output written on refman.pdf (20 pages, 137269 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
- 605 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 464 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 671 PDF objects out of 1000 (max. 8388607)
+ 614 compressed objects within 7 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 472 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,8 @@
 \begin{theindex}
 
+  \item {action\discretionary {-}{}{}Delete}
+    \subitem {App\discretionary {-}{}{}::\discretionary {-}{}{}Presenters\discretionary {-}{}{}::\discretionary {-}{}{}Pastes\discretionary {-}{}{}Presenter}, 
+		\hyperpage{12}
   \item {action\discretionary {-}{}{}Show}
     \subitem {App\discretionary {-}{}{}::\discretionary {-}{}{}Presenters\discretionary {-}{}{}::\discretionary {-}{}{}Pastes\discretionary {-}{}{}Presenter}, 
 		\hyperpage{12}
@@ -25,7 +28,7 @@
     \subitem {update}, \hyperpage{11}
   \item {App\discretionary {-}{}{}::\discretionary {-}{}{}Model\discretionary {-}{}{}::\discretionary {-}{}{}User\discretionary {-}{}{}Manager}
     \subitem {add}, \hyperpage{14}
-    \subitem {authenticate}, \hyperpage{14}
+    \subitem {authenticate}, \hyperpage{15}
   \item {App\discretionary {-}{}{}::\discretionary {-}{}{}Presenters\discretionary {-}{}{}::\discretionary {-}{}{}Error\discretionary {-}{}{}Presenter}
     \subitem {run}, \hyperpage{7}
   \item {App\discretionary {-}{}{}::\discretionary {-}{}{}Presenters\discretionary {-}{}{}::\discretionary {-}{}{}Homepage\discretionary {-}{}{}Presenter}
@@ -33,15 +36,16 @@
     \subitem {login\discretionary {-}{}{}Form\discretionary {-}{}{}Succeeded}, 
 		\hyperpage{8}
   \item {App\discretionary {-}{}{}::\discretionary {-}{}{}Presenters\discretionary {-}{}{}::\discretionary {-}{}{}Pastes\discretionary {-}{}{}Presenter}
+    \subitem {action\discretionary {-}{}{}Delete}, \hyperpage{12}
     \subitem {action\discretionary {-}{}{}Show}, \hyperpage{12}
     \subitem {inject\discretionary {-}{}{}Models}, \hyperpage{12}
   \item {App\discretionary {-}{}{}::\discretionary {-}{}{}Presenters\discretionary {-}{}{}::\discretionary {-}{}{}Sign\discretionary {-}{}{}Presenter}
     \subitem {create\discretionary {-}{}{}Component\discretionary {-}{}{}Sign\discretionary {-}{}{}In\discretionary {-}{}{}Form}, 
-		\hyperpage{13}
+		\hyperpage{14}
   \item {App\discretionary {-}{}{}::\discretionary {-}{}{}Router\discretionary {-}{}{}Factory}
     \subitem {create\discretionary {-}{}{}Router}, \hyperpage{12}
   \item {App\textbackslash {}\discretionary {-}{}{}Forms\textbackslash {}\discretionary {-}{}{}Sign\discretionary {-}{}{}Form\discretionary {-}{}{}Factory}, 
-		\hyperpage{12}
+		\hyperpage{13}
   \item {App\textbackslash {}\discretionary {-}{}{}Model\textbackslash {}\discretionary {-}{}{}Base}, 
 		\hyperpage{5}
   \item {App\textbackslash {}\discretionary {-}{}{}Model\textbackslash {}\discretionary {-}{}{}Duplicate\discretionary {-}{}{}Name\discretionary {-}{}{}Exception}, 
@@ -66,7 +70,7 @@
 		\hyperpage{12}
   \item {authenticate}
     \subitem {App\discretionary {-}{}{}::\discretionary {-}{}{}Model\discretionary {-}{}{}::\discretionary {-}{}{}User\discretionary {-}{}{}Manager}, 
-		\hyperpage{14}
+		\hyperpage{15}
 
   \indexspace
 
@@ -75,7 +79,7 @@
 		\hyperpage{13}
   \item {create\discretionary {-}{}{}Component\discretionary {-}{}{}Sign\discretionary {-}{}{}In\discretionary {-}{}{}Form}
     \subitem {App\discretionary {-}{}{}::\discretionary {-}{}{}Presenters\discretionary {-}{}{}::\discretionary {-}{}{}Sign\discretionary {-}{}{}Presenter}, 
-		\hyperpage{13}
+		\hyperpage{14}
   \item {create\discretionary {-}{}{}Router}
     \subitem {App\discretionary {-}{}{}::\discretionary {-}{}{}Router\discretionary {-}{}{}Factory}, 
 		\hyperpage{12}
